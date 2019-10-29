@@ -17,7 +17,7 @@ public class Tabelas {
 		System.out.println("Entre com a matriz");
 		for (int i = 0; i < linha; i++) {
 			for (int j = 0; j < coluna; j++) {
-				matriz[i][j] = scan.nextDouble();
+				matriz[i][j] = sc.nextDouble();
 			}
 		}
 
@@ -101,6 +101,6 @@ public class Tabelas {
 				}
 			}
 		}
-		scan.close();
+		sc.close();
 	}
 }

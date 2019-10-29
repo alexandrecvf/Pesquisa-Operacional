@@ -16,7 +16,8 @@ public class Principal {
 		Tabelas tabela = new Tabelas();
 		tabela.Receber(linhas, colunas);
 
-		scan.close();
+		sc.close();
+
 	}
 
 }
